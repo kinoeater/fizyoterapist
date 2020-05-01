@@ -1,0 +1,54 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 0.70rem;
+  padding-bottom: 0.70rem;
+  overflow: hidden;
+  height: 80px;
+  
+}
+
+.nav_mobile {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.heading-small {
+  font-size: 1rem;
+  }
+
+  #home img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#tedaviler .items {
+  flex-direction: column;
+}
+
+#tedaviler .items .item {
+  width: 100%;
+}
+
+.egzersizler .egzersiz {
+  display: flex;
+  flex-direction: column;
+}
+
+.egzersizler .egzersiz .egzersiz-image img {
+
+  width: 280px;
+  height: auto;
+  justify-content: center;
+  
+
+}
